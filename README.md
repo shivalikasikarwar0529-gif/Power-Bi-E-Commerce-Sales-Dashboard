@@ -1,35 +1,42 @@
 # E-commerce Sales Analysis Dashboard (Power BI) 📊
 
-This project features a comprehensive Power BI dashboard designed to analyze over **2M+ in e-commerce sales data**. It provides actionable insights into profitability, customer behavior, and regional sales performance using advanced data visualization and DAX measures.
-
-## 📽️ Interactive Project Demo
-The animation below demonstrates the dashboard's interactivity, specifically showing how the **Quarterly** and **State-wise** slicers dynamically update the visuals.
-
-![Dashboard Interaction Demo](Ecom%20dashboard.gif)
-
-## 🔍 Key Insights & Business Metrics
-Based on the data analysis, the following key performance indicators (KPIs) were identified:
-* **Total Revenue**: Generated a total of ₹2M in sales.
-* **Order Volume**: Successfully processed 321 total orders.
-* **Profitability**: Achieved an Average Order Value (AOV) of ₹121K.
-* **Sales Trends**: Identified **August** as the peak month for profit generation.
-* **Top Category**: **Clothing** emerged as the highest-selling category by quantity.
-* **Payment Preferences**: **Cash on Delivery (COD)** is the most preferred payment method.
-
-## 🛠️ Technical Skills Demonstrated
-* **Data Modeling**: Built an efficient data schema to handle complex e-commerce datasets.
-* **DAX Measures**: Created custom calculations for Total Sales, Profit Margins, and AOV.
-* **Interactive UI**: Developed a user-friendly interface with dynamic slicers and funnel charts.
-* **ETL Process**: Performed data cleaning and transformation using Power Query.
-* 
-## 📁 Repository Contents
-* **[e-commerce dashboard.pbix](e-commerce%20dashboard.pbix)**: The main Power BI project file for local exploration.
-* **[Ecom dashboard.gif](Ecom%20dashboard.gif)**: Animated walkthrough of the dashboard.
-* **[Screenshot](Screenshot%202026-01-31%20141632.png)**: Static high-resolution preview of the report.
+This project features an interactive Power BI dashboard that analyzes **2M+ e-commerce sales records** to track business performance. It provides actionable insights into profitability, customer behavior, and payment funnel efficiency using DAX and data visualization techniques.
 
 ---
 
-## 🚀 How to Use
-1. Download the `.pbix` file from this repository.
+## 📽️ Interactive Demo
+The following animation demonstrates how the **Quarterly** and **State-wise** slicers dynamically update the entire dashboard for deep-dive analysis.
+
+![Dashboard Interaction Demo](Ecom%20dashboard.gif)
+
+---
+
+## 🔍 Key Insights & Performance Metrics
+Based on the dashboard analysis:
+* **Total Revenue**: Achieved a total sales figure of **₹2M**.
+* **Order Efficiency**: Processed **321 total orders**.
+* **Profitability**: Maintained an Average Order Value (AOV) of **₹121K**.
+* **Peak Profitability**: Identified **August** as the most profitable month of the year.
+* **Customer Distribution**: **Harivansh** is identified as the top customer by sales volume.
+* **Payment Trends**: **Cash on Delivery (COD)** is the most preferred payment method.
+
+---
+
+## 🛠️ Technical Implementation
+* **Data Transformation**: Cleaned and structured raw datasets using **Power Query**.
+* **Calculations**: Developed custom **DAX measures** for Total Sales, Profits, and AOV.
+* **UI/UX Design**: Built an intuitive interface with interactive slicers, funnel charts, and time-series analysis.
+
+---
+
+## 📁 Project Files
+* **[e-commerce dashboard.pbix](e-commerce%20dashboard.pbix)**: Download the main Power BI file to explore the full report.
+* **[Ecom dashboard.gif](Ecom%20dashboard.gif)**: Animated walkthrough of the dashboard interactivity.
+* **[Screenshot](Screenshot%202026-01-31%20141632.png)**: Static high-resolution preview of the final report.
+
+---
+
+## 🚀 How to Explore
+1. Download the **`e-commerce dashboard.pbix`** file from the list above.
 2. Open it using **Power BI Desktop**.
-3. Use the **Quarter** and **State** slicers to interact with the data and view specific regional performance.
+3. Interact with the **Quarter** and **State** slicers to see real-time data updates.
