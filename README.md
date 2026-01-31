@@ -1,41 +1,31 @@
-# 📊 E-commerce Sales Interactive Dashboard
+# 📊 E-commerce Sales Analysis Dashboard (Power BI)
 
-This Power BI project provides a deep-dive analysis into e-commerce sales performance. It features a highly interactive user interface designed to track KPIs, profitability, and customer trends.
+This Power BI project provides a comprehensive analysis of e-commerce sales data, tracking key business metrics through an interactive and user-friendly interface.
 
-## 📽️ Interactive Demo Walkthrough
-Maine is screen recording mein dashboard ki interactivity aur filter behavior ko demonstrate kiya hai. 
+## 📽️ Dashboard Interactive Demo
+Niche di gayi animation mein aap dekh sakte hain ki kaise **Quarter** aur **State** slicers ka use karke data ko dynamically filter kiya gaya hai. Ye GIF repository load hote hi apne aap chalne lagegi.
 
-**Key interactions shown in the video:**
-* **Quarterly Filters**: Qtr 1 se Qtr 4 tak switch karke trends ka analysis.
-* **State-wise Drill Down**: Sales Per State slicer (Bihar, Delhi, Gujarat, etc.) ka use.
-* **Payment Funnel**: Cash on Delivery (COD) vs Digital payments ka comparison.
+![E-commerce Dashboard Demo](Ecom%20dashboard.gif)
 
-### [▶️ Click here to watch the Interaction Video](Screen%20Recording%202026-01-31%20141832.mp4)
+## 🔍 Key Insights & Business Metrics
+Dashboard ke visuals se nikle mukhya points:
+* **Total Sales**: ₹2M total revenue generate hui hai.
+* **Profitability peaks**: Sabse zyada profit **August** ke mahine mein dekha gaya.
+* **Top Category**: **Clothing** category sales volume mein lead kar rahi hai.
+* **Payment Trends**: **Cash on Delivery (COD)** sabse zyada pasand kiya jane wala payment mode hai.
+* **Top Customer**: **Harivansh** sales mein sabse upar hain.
 
-## 🖼️ Dashboard Snapshot
-![E-commerce Dashboard Preview](image_f4037b.png)
-
-## 🔍 Key Insights & Metrics
-Dashboard ke visuals se ye main conclusions nikalte hain:
-* **Total Revenue**: ₹2M generated across all categories.
-* **Order Volume**: 321 total orders successfully processed.
-* **Average Order Value (AOV)**: ₹121K per order.
-* **Top Category**: **Clothing** is the leader in order quantity.
-* **Most Profitable Product**: **Printers** generate the highest profit in the sub-category list.
-* **Preferred Payment**: **COD** remains the most popular payment mode among customers.
-
-## 🛠️ Tech Stack & Skills
+## 🛠️ Tech Stack & Features
 * **Tool**: Power BI Desktop
-* **Data Cleaning**: Power Query (M)
-* **Calculations**: DAX (Measures like Total Sales, Profit, and AOV)
-* **Visualization**: Interactive Slicers, Funnel Charts, and Bar Charts
+* **Interactivity**: Dynamic Slicers (Quarter & State-wise), Funnel Charts, and Time-series analysis.
+* **Data Modeling**: DAX ka use karke KPIs (Total Sales, AOV, Profit) calculate kiye gaye hain.
 
-## 📁 Repository Files
-* `e-commerce dashboard.pbix`: Full Power BI report file.
-* `Screen Recording 2026-01-31 141832.mp4`: Walkthrough of the dashboard features.
-* `image_f4037b.png`: Static preview image of the dashboard.
+## 📁 Repository Structure
+* `e-commerce dashboard.pbix`: Main Power BI file jise aap download karke explore kar sakte hain.
+* `Ecom dashboard.gif`: Dashboard ki interactivity ka live demo.
+* `Screenshot 2026-01-31 141632.png`: Dashboard ka high-resolution static preview.
 
-## How to Run This Project
-1. Download the `.pbix` file.
-2. Open it in **Power BI Desktop**.
-3. Use the **Quarter** and **State** slicers to explore the data dynamically.
+## How to Explore
+1. Clone ya download karein is repository ko.
+2. `.pbix` file ko **Power BI Desktop** mein open karein.
+3. Slicers ka use karke dashboard ke dynamic behavior ko test karein.
