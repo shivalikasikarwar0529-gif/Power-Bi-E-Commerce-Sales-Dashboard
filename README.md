@@ -1,37 +1,41 @@
-# E-commerce Sales Analysis Dashboard (Power BI) 📊
+# 📊 E-commerce Sales Interactive Dashboard
 
-This repository contains a comprehensive Power BI dashboard that analyzes **2M+ in sales data** for an e-commerce business. The project focuses on tracking key performance indicators (KPIs), profitability, and customer behavior across different regions and categories.
+This Power BI project provides a deep-dive analysis into e-commerce sales performance. It features a highly interactive user interface designed to track KPIs, profitability, and customer trends.
 
----
+## 📽️ Interactive Demo Walkthrough
+Maine is screen recording mein dashboard ki interactivity aur filter behavior ko demonstrate kiya hai. 
 
-## 📸 Dashboard Preview
-![Dashboard Snapshot](Screenshot%202026-01-31%20141632.png)
+**Key interactions shown in the video:**
+* **Quarterly Filters**: Qtr 1 se Qtr 4 tak switch karke trends ka analysis.
+* **State-wise Drill Down**: Sales Per State slicer (Bihar, Delhi, Gujarat, etc.) ka use.
+* **Payment Funnel**: Cash on Delivery (COD) vs Digital payments ka comparison.
 
-## 🎥 Interactive Demo
-I have recorded a walkthrough showing how the **Quarterly** and **State-wise** slicers work to dynamically update the visuals. Watch the full interactivity here:
+### [▶️ Click here to watch the Interaction Video](Screen%20Recording%202026-01-31%20141832.mp4)
 
-[▶️ Play Dashboard Walkthrough Video](Screen%20Recording%202026-01-31%20141832.mp4)
+## 🖼️ Dashboard Snapshot
+![E-commerce Dashboard Preview](image_f4037b.png)
 
-## 🔍 Key Insights & Business Impact
+## 🔍 Key Insights & Metrics
+Dashboard ke visuals se ye main conclusions nikalte hain:
+* **Total Revenue**: ₹2M generated across all categories.
+* **Order Volume**: 321 total orders successfully processed.
+* **Average Order Value (AOV)**: ₹121K per order.
+* **Top Category**: **Clothing** is the leader in order quantity.
+* **Most Profitable Product**: **Printers** generate the highest profit in the sub-category list.
+* **Preferred Payment**: **COD** remains the most popular payment mode among customers.
 
-* **Sales Performance**: Achieved a total revenue of **2M** with **321 orders**.
-* **Profitability**: The Average Order Value (AOV) is **121K**, with significant profit peaks in **August**.
-* **Product Trends**: **Clothing** is the highest-selling category, while **Printers** and **Bookcases** lead in profit generation.
-* **Customer Insights**: Identified **Harivansh** as the top-contributing customer by sales volume.
-* **Payment Preferences**: **Cash on Delivery (COD)** is the most preferred payment method, representing the largest share in the payment funnel.
+## 🛠️ Tech Stack & Skills
+* **Tool**: Power BI Desktop
+* **Data Cleaning**: Power Query (M)
+* **Calculations**: DAX (Measures like Total Sales, Profit, and AOV)
+* **Visualization**: Interactive Slicers, Funnel Charts, and Bar Charts
 
-## 🛠️ Technical Skills Demonstrated
-* **Data Modeling**: Created a robust data schema to handle complex e-commerce datasets.
-* **DAX (Data Analysis Expressions)**: Developed custom measures for Total Sales, Profit Margins, and AOV.
-* **Data Visualization**: Designed an intuitive UI with interactive slicers, funnels, and time-series charts.
-* **ETL Process**: Cleaned and transformed raw data using **Power Query**.
+## 📁 Repository Files
+* `e-commerce dashboard.pbix`: Full Power BI report file.
+* `Screen Recording 2026-01-31 141832.mp4`: Walkthrough of the dashboard features.
+* `image_f4037b.png`: Static preview image of the dashboard.
 
-## 📁 Project Structure
-* `e-commerce dashboard.pbix`: The core Power BI project file.
-* `Screenshot 2026-01-31 141632.png`: High-resolution preview of the dashboard.
-* `Ecom dashboard video.mp4`: A detailed video showing slicer interactions and dynamic filtering.
-
-## How to Explore the Project
-1.  **Clone the repository** or download the `.pbix` file.
-2.  Open the file in **Power BI Desktop**.
-3.  Use the **Quarter** and **State** slicers to see how the data filtered across different segments.
+## How to Run This Project
+1. Download the `.pbix` file.
+2. Open it in **Power BI Desktop**.
+3. Use the **Quarter** and **State** slicers to explore the data dynamically.
