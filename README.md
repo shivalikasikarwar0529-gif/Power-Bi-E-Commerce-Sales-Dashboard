@@ -10,8 +10,7 @@ This repository contains a comprehensive Power BI dashboard that analyzes **2M+ 
 ## 🎥 Interactive Demo
 I have recorded a walkthrough showing how the **Quarterly** and **State-wise** slicers work to dynamically update the visuals. Watch the full interactivity here:
 
-[▶️ Click here to watch the Dashboard Demo Video](Ecom%20dashboard%20video.mp4)
-
+Click here to watch dashboard demo 👉 : Ecom dashboard video.mp4
 ## 🔍 Key Insights & Business Impact
 
 * **Sales Performance**: Achieved a total revenue of **2M** with **321 orders**.
